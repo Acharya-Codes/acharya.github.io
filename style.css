@@ -471,3 +471,12 @@ a:focus-visible {
 .skills-panel * {
     cursor: pointer;
 }
+
+
+@media (max-width: 760px) {
+    .reveal {
+        opacity: 1;
+        transform: none;
+        will-change: auto;
+    }
+}
